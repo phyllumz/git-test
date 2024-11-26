@@ -1,37 +1,36 @@
 *{
   padding: 0;
   margin: 0;
+ 
   box-sizing: border-box;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 
 body{
+  display: flex;
+  justify-content: center;
+  align-content: center; 
+    font-family: 'Figtree', sans-serif;
+  font-size: 16px;
+  
  
-  background-color: rgba(187, 143, 50, 0.932);
+ 
+  background-color: hsl(47, 88%, 63%);
 }
-
-
 
 .content{
-  background-color: white;
-  border-radius: 25px;
+  background-color: hsl(0, 0%, 100%);
   border: 1px solid black;
- width: 22rem;
- height: 29rem;
- margin-left: 31rem;
+  height: 29rem;
+ padding-right: 2rem;
  margin-top: 6rem;
- box-shadow: 10px 10px ;
-
-
+ box-shadow: 8px 8px ;
+ border-radius: 25px;
 
 }
 
-
- 
-
-
 .content img{
-  
+
   border-radius: 11px;
   margin-left: 2.5rem;
   margin-top: 2rem;
@@ -39,7 +38,7 @@ body{
 
 .content p{
 
-background-color: yellow;
+background-color: hsl(47, 88%, 63%);
 width:4rem;
 color:black ;
 font: 500;
@@ -51,15 +50,15 @@ text-align: center;
 padding:8px;
 }
 
-.content h2{
+.content h1{
   font-size: 14px;
   opacity: 0.5;
-  color: rgb(15, 10, 10);
+  color: hsl(0, 0%, 42%);
   margin-top: 7px;
   margin-left: 2.5rem ;
 }
 
-.content h1{
+.content h2{
   font-size: 18.5px;
   font-weight: bold;
   margin-top: 11px;
@@ -74,7 +73,7 @@ padding:8px;
 font-size: 12px;
 width:18rem;
 
-color: rgba(99, 75, 75, 0.671);
+color: hsl(0, 0%, 42%);
 
 }
 
@@ -82,10 +81,11 @@ color: rgba(99, 75, 75, 0.671);
   display: flex;
   flex-direction: row;
 
+
 }
 
 .Greg-head h4{
-  margin-top: 32px;
+  margin-top: 38px;
   margin-left: 8px;
 }
 
